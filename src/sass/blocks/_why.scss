@@ -1,0 +1,27 @@
+.why {
+    padding: 100px 0 100px;
+    background-color: #fff;
+
+    text-align: center;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    &__img-outer {
+        height: 115px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        max-width: 370px;
+        margin-bottom: 40px;
+    }
+}

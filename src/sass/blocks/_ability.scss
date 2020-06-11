@@ -1,0 +1,42 @@
+.ability {
+    padding: 100px 0;
+    background-color: $bg-color;
+
+    &__items {
+        padding: 0 100px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        &:last-child {
+            margin-bottom: 60px;
+        }
+
+        &-title {
+            margin-bottom: 13px;
+
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 700;
+        }
+    }
+
+    &__descr {
+        max-width: 450px;
+
+    }
+
+    &__img {
+        max-width: 370px;
+        max-height: 370px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}

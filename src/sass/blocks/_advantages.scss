@@ -1,0 +1,18 @@
+.advantages {
+    padding: 100px 0;
+    background-color: $bg-color;
+
+    &__items {
+        margin: 60px 0;
+        display: flex;
+        justify-content: space-between;
+
+        text-align: center;
+    }
+
+    &__item {
+        &-img {
+            margin-bottom: 30px;
+        }
+    }
+}

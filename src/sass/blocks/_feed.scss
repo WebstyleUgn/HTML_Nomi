@@ -1,0 +1,38 @@
+.feed {
+    padding: 100px 0;
+    background: url(../img/bg-feed.jpg) no-repeat center (center/cover);
+
+    &__slider {
+        margin-top: 60px;
+
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &-review {
+            display: flex;
+            justify-content: space-between;
+            max-width: 570px;
+            min-height: 179px;
+            padding-right: 20px;
+            margin-top: 30px;
+            background-color: #f4f4f4;
+        }
+
+        &-name {
+            padding-top: 20px;
+            margin-bottom: 5px;
+            
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 700;
+        }
+
+        &-descr {
+            max-width: 360px;
+            padding-left: 20px;
+        }
+    }
+}

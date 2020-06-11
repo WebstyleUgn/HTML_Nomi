@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__phones-first,
+    &__phones-second {
+        color: #fff;
+        text-decoration: none;
+
+        transition: all .3s;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__phones-second {
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,28 @@
+@import 'base/vars';
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: $text-color;
+}
+
+.container {
+    position: relative;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/trigger';
+@import 'blocks/why';
+@import 'blocks/title';
+@import 'blocks/ability';
+@import 'blocks/design';
+@import 'blocks/advantages';
+@import 'blocks/feed';
+@import 'blocks/order';
+@import 'blocks/footer';
+@import "blocks/media";
