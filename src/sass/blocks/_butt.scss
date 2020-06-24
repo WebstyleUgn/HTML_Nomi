@@ -1,0 +1,47 @@
+.btn {
+    display: block;
+    width: 207px;
+    border: 1px solid transparent;
+    padding: 14px 0;
+    outline: none;
+
+    background-color: $main-color;
+    color: #fff;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+
+    &:hover {
+        text-decoration: none;
+        background-color: #fff;
+        color: $text-color;
+        border: 1px solid transparent;
+        box-shadow: 0px 0px 15px #fff;
+    }
+    &_header {
+        border: 1px solid $main-color;
+        
+        background-color: transparent;
+        color: #fff;
+
+        transition: all .3s;
+
+        &:hover {
+            background-color: #fff;
+            color: $text-color;
+            border: 1px solid transparent;
+            box-shadow: none;
+        }
+    }
+    &:focus {
+        outline: none;
+    }
+
+    &_center {
+        margin: 0 auto;
+    }
+
+    &_form {
+        width: 100%;
+    }
+}
